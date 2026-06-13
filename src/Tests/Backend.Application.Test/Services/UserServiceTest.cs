@@ -1,15 +1,15 @@
 using Xunit;
-using Sample01.Application.Services;
 using Sample01.Application.Models.Requests;
-using Sample01.Domain.Entities;
-using Sample01.Domain.Enums;
-using Sample01.Domain.Exceptions;
-using Sample01.Domain.Core.Specifications;
-using Sample01.Application.Core.Services;
 using Moq;
-using Sample01.Domain.Core.Repositories;
+using Backend.Application.Services;
+using Backend.Application.Core.Services;
+using Backend.Domain.Core.Specifications;
+using Backend.Domain.Core.Repositories;
+using Backend.Domain.Entities;
+using Backend.Domain.Enums;
+using Backend.Domain.Exceptions;
 
-namespace Sample01.Application.Test.Services
+namespace Backend.Application.Test.Services
 {
     public class UserServiceTest
     {

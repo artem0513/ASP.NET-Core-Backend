@@ -1,7 +1,7 @@
-﻿using Sample01.Application.Core.Services;
-using NLog.Web;
+﻿using NLog.Web;
+using Backend.Application.Core.Services;
 
-namespace Sample01.Infrastructure.Services
+namespace Backend.Infrastructure.Services
 {
     public class LoggerService : ILoggerService
     {

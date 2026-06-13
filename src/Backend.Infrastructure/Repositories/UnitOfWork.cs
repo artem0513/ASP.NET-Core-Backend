@@ -1,8 +1,8 @@
-using Sample01.Domain.Core.Models;
-using Sample01.Domain.Core.Repositories;
-using Sample01.Infrastructure.Data;
+using Backend.Domain.Core.Models;
+using Backend.Domain.Core.Repositories;
+using Backend.Infrastructure.Data;
 
-namespace Sample01.Infrastructure.Repositories
+namespace Backend.Infrastructure.Repositories
 {
     public class UnitOfWork : IUnitOfWork
     {

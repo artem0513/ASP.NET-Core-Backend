@@ -1,6 +1,6 @@
-using Sample01.Domain.Entities;
+using Backend.Domain.Entities;
 
-namespace Sample01.Application.Models.DTOs
+namespace Backend.Application.Models.DTOs
 {
     public class UserDTO
     {

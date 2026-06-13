@@ -1,7 +1,7 @@
-using Sample01.Domain.Core.Specifications;
-using Sample01.Domain.Core.Models;
+using Backend.Domain.Core.Specifications;
+using Backend.Domain.Core.Models;
 
-namespace Sample01.Domain.Test.Helpers
+namespace Backend.Domain.Test.Helpers
 {
     public class SpecificationEvaluatorTestHelper<T> where T : BaseEntity
     {

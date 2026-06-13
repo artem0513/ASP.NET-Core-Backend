@@ -1,8 +1,8 @@
 using Microsoft.EntityFrameworkCore;
-using Sample01.Domain.Core.Specifications;
-using Sample01.Domain.Core.Models;
+using Backend.Domain.Core.Specifications;
+using Backend.Domain.Core.Models;
 
-namespace Sample01.Infrastructure.Repositories
+namespace Backend.Infrastructure.Repositories
 {
     public class SpecificationEvaluator<T> where T : BaseEntity
     {

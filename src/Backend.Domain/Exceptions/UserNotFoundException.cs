@@ -1,4 +1,4 @@
-namespace Sample01.Domain.Exceptions
+namespace Backend.Domain.Exceptions
 {
     public class UserNotFoundException : Exception
     {

@@ -3,11 +3,10 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using Sample01.Infrastructure.Data;
 
 #nullable disable
 
-namespace Sample01.Infrastructure.Data.Migrations
+namespace Backend.Infrastructure.Data.Migrations
 {
     [DbContext(typeof(Sample01DbContext))]
     partial class Sample01DbContextModelSnapshot : ModelSnapshot
@@ -19,7 +18,7 @@ namespace Sample01.Infrastructure.Data.Migrations
                 .HasAnnotation("ProductVersion", "7.0.9")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
-            SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
+            modelBuilder.UseIdentityColumns();
 
             modelBuilder.Entity("Sample01.Domain.Entities.User", b =>
                 {

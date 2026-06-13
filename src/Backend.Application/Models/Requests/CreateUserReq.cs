@@ -1,7 +1,7 @@
 using System.ComponentModel.DataAnnotations;
-using Sample01.Domain.Enums;
+using Backend.Domain.Enums;
 
-namespace Sample01.Application.Models.Requests
+namespace Backend.Application.Models.Requests
 {
     public class CreateUserReq
     {

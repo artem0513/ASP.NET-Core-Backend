@@ -1,8 +1,8 @@
-using Sample01.Domain.Entities;
-using Sample01.Domain.Enums;
-using Sample01.Domain.Core.Specifications;
+using Backend.Domain.Entities;
+using Backend.Domain.Enums;
+using Backend.Domain.Core.Specifications;
 
-namespace Sample01.Domain.Specifications
+namespace Backend.Domain.Specifications
 {
     public static class UserSpecifications
     {

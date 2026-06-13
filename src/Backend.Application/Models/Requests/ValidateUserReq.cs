@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace Sample01.Application.Models.Requests
+namespace Backend.Application.Models.Requests
 {
     public class ValidateUserReq
     {

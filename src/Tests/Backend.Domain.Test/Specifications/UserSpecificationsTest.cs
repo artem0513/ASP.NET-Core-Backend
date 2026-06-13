@@ -1,10 +1,10 @@
 using Xunit;
-using Sample01.Domain.Specifications;
-using Sample01.Domain.Entities;
-using Sample01.Domain.Enums;
-using Sample01.Domain.Test.Helpers;
+using Backend.Domain.Specifications;
+using Backend.Domain.Entities;
+using Backend.Domain.Enums;
+using Backend.Domain.Test.Helpers;
 
-namespace Sample01.Domain.Test.Specifications
+namespace Backend.Domain.Test.Specifications
 {
     public class UserSpecificationsTest
     {

@@ -1,8 +1,8 @@
+using Backend.Application.Interfaces;
+using Backend.Application.Services;
 using Microsoft.Extensions.DependencyInjection;
-using Sample01.Application.Interfaces;
-using Sample01.Application.Services;
 
-namespace Sample01.Application
+namespace Backend.Application
 {
     public static class ServiceExtensions
     {

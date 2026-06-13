@@ -1,6 +1,6 @@
-using Sample01.Application;
-using Sample01.Infrastructure;
-using WorkerServiceDotNetCore;
+using Backend.Application;
+using Backend.Infrastructure;
+using Backend.WebApi;
 
 var builder = WebApplication.CreateBuilder(args);
 

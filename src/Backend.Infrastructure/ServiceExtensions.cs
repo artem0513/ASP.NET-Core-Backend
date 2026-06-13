@@ -1,12 +1,12 @@
+using Backend.Application.Core.Services;
+using Backend.Domain.Core.Repositories;
+using Backend.Infrastructure.Data;
+using Backend.Infrastructure.Repositories;
+using Backend.Infrastructure.Services;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using Sample01.Application.Core.Services;
-using Sample01.Domain.Core.Repositories;
-using Sample01.Infrastructure.Data;
-using Sample01.Infrastructure.Repositories;
-using Sample01.Infrastructure.Services;
 
-namespace Sample01.Infrastructure
+namespace Backend.Infrastructure
 {
     public static class ServiceExtensions
     {

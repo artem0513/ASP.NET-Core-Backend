@@ -1,9 +1,9 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Sample01.Application.Interfaces;
-using Sample01.Application.Models.Requests;
-using Sample01.Application.Models.Responses;
+﻿using Backend.Application.Interfaces;
+using Backend.Application.Models.Requests;
+using Backend.Application.Models.Responses;
+using Microsoft.AspNetCore.Mvc;
 
-namespace Sample01.WebApi.Controllers
+namespace Backend.WebApi.Controllers
 {
     [ApiController]
     [Route("api/[controller]/[action]")]

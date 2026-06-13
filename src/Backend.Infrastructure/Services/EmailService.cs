@@ -1,10 +1,10 @@
+using Backend.Application.Core.Models;
+using Backend.Application.Core.Services;
 using Microsoft.Extensions.Configuration;
-using Sample01.Application.Core.Models;
-using Sample01.Application.Core.Services;
 using System.Net;
 using System.Net.Mail;
 
-namespace Sample01.Infrastructure.Services;
+namespace Backend.Infrastructure.Services;
 
 public class EmailService : IEmailService
 {

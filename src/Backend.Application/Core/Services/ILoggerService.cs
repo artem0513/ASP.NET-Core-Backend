@@ -1,4 +1,4 @@
-﻿namespace Sample01.Application.Core.Services
+﻿namespace Backend.Application.Core.Services
 {
     public interface ILoggerService
     {

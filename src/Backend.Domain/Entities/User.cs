@@ -1,8 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using Sample01.Domain.Core.Models;
-using Sample01.Domain.Enums;
+using Backend.Domain.Core.Models;
+using Backend.Domain.Enums;
 
-namespace Sample01.Domain.Entities
+namespace Backend.Domain.Entities
 {
     public class User : BaseEntity, IAuditableEntity, ISoftDeleteEntity
     {

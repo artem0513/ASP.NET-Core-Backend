@@ -1,6 +1,6 @@
-using Sample01.Application.Models.DTOs;
+using Backend.Application.Models.DTOs;
 
-namespace Sample01.Application.Models.Responses
+namespace Backend.Application.Models.Responses
 {
     public class CreateUserRes
     {

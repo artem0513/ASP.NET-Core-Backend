@@ -1,6 +1,6 @@
-using Sample01.Domain.Core.Models;
+using Backend.Domain.Core.Models;
 
-namespace Sample01.Domain.Core.Repositories
+namespace Backend.Domain.Core.Repositories
 {
     public interface IUnitOfWork
     {

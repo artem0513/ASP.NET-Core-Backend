@@ -1,6 +1,6 @@
-using Sample01.Application.Core.Models;
+using Backend.Application.Core.Models;
 
-namespace Sample01.Application.Core.Services
+namespace Backend.Application.Core.Services
 {
     public interface IEmailService
     {

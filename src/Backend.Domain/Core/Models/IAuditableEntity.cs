@@ -1,4 +1,4 @@
-namespace Sample01.Domain.Core.Models
+namespace Backend.Domain.Core.Models
 {
     public interface IAuditableEntity
     {

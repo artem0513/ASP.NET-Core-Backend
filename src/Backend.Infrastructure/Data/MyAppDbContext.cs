@@ -1,7 +1,7 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Sample01.Domain.Entities;
+﻿using Backend.Domain.Entities;
+using Microsoft.EntityFrameworkCore;
 
-namespace Sample01.Infrastructure.Data
+namespace Backend.Infrastructure.Data
 {
     public class Sample01DbContext : DbContext
     {

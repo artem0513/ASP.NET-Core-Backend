@@ -1,7 +1,7 @@
 using System.Net.Mail;
 using System.Net.Mime;
 
-namespace Sample01.Application.Core.Models
+namespace Backend.Application.Core.Models
 {
     public class MailAttachment
     {

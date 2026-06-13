@@ -1,4 +1,4 @@
-namespace Sample01.Application.Core.Models
+namespace Backend.Application.Core.Models
 {
     public class Email
     {

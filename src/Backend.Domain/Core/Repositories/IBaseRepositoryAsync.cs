@@ -1,7 +1,7 @@
-using Sample01.Domain.Core.Models;
-using Sample01.Domain.Core.Specifications;
+using Backend.Domain.Core.Models;
+using Backend.Domain.Core.Specifications;
 
-namespace Sample01.Domain.Core.Repositories
+namespace Backend.Domain.Core.Repositories
 {
     public interface IBaseRepositoryAsync<T> where T : BaseEntity
     {

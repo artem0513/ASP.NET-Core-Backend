@@ -1,7 +1,7 @@
-using Sample01.Application.Models.Requests;
-using Sample01.Application.Models.Responses;
+using Backend.Application.Models.Requests;
+using Backend.Application.Models.Responses;
 
-namespace Sample01.Application.Interfaces
+namespace Backend.Application.Interfaces
 {
     public interface IUserService
     {

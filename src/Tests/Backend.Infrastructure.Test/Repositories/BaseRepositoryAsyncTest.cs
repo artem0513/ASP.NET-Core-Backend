@@ -1,11 +1,11 @@
 using Xunit;
 using Microsoft.EntityFrameworkCore;
-using Sample01.Infrastructure.Data;
-using Sample01.Infrastructure.Repositories;
-using Sample01.Domain.Entities;
-using Sample01.Domain.Enums;
+using Backend.Infrastructure.Repositories;
+using Backend.Infrastructure.Data;
+using Backend.Domain.Entities;
+using Backend.Domain.Enums;
 
-namespace Sample01.Infrastructure.Test.Repositories
+namespace Backend.Infrastructure.Test.Repositories
 {
     public class BaseRepositoryAsyncTest
     {

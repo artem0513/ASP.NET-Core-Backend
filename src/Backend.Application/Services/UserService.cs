@@ -1,15 +1,15 @@
-using Sample01.Application.Models.Requests;
-using Sample01.Application.Models.Responses;
-using Sample01.Domain.Specifications;
-using Sample01.Domain.Entities;
-using Sample01.Domain.Enums;
 using Sample01.Domain.Exceptions;
 using Sample01.Application.Models.DTOs;
-using Sample01.Application.Interfaces;
-using Sample01.Application.Core.Services;
-using Sample01.Domain.Core.Repositories;
+using Backend.Application.Models.Responses;
+using Backend.Application.Models.Requests;
+using Backend.Application.Interfaces;
+using Backend.Application.Core.Services;
+using Backend.Domain.Specifications;
+using Backend.Domain.Core.Repositories;
+using Backend.Domain.Entities;
+using Backend.Domain.Enums;
 
-namespace Sample01.Application.Services
+namespace Backend.Application.Services
 {
     public class UserService : IUserService
     {

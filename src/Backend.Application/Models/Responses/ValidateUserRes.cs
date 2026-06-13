@@ -1,4 +1,4 @@
-namespace Sample01.Application.Models.Responses
+namespace Backend.Application.Models.Responses
 {
     public class ValidateUserRes
     {

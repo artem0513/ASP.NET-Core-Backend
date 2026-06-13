@@ -1,4 +1,4 @@
-namespace Sample01.Domain.Enums
+namespace Backend.Domain.Enums
 {
     public enum UserStatus
     {
